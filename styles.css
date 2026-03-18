@@ -1,0 +1,236 @@
+/* ================================
+   DYLAN & MADDIE'S WEDDING
+   crunchy web 1.0 energy
+   ================================ */
+
+/* the bones */
+body {
+  background-color: #ffffef;
+  color: #2a2a2a;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 17px;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+.page {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* links like it's 1999 */
+a {
+  color: #5533aa;
+}
+
+a:visited {
+  color: #884488;
+}
+
+a:hover {
+  color: #ff6600;
+  background-color: #ffffcc;
+}
+
+/* the big top */
+.hero {
+  text-align: center;
+  padding: 30px 0 10px;
+}
+
+.hero h1 {
+  font-size: 2.8em;
+  margin: 0;
+  color: #3a3a1a;
+  letter-spacing: 0.02em;
+}
+
+.hero h2 {
+  font-size: 1.1em;
+  font-weight: normal;
+  font-style: italic;
+  margin: 5px 0 15px;
+  color: #666650;
+}
+
+.date-big {
+  font-size: 1.4em;
+  font-weight: bold;
+  color: #5a4a2a;
+  margin: 10px 0;
+}
+
+.ascii-art {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 14px;
+  color: #998866;
+  line-height: 1.3;
+  display: inline-block;
+  text-align: left;
+}
+
+/* marquee baby */
+.marquee {
+  font-style: italic;
+  color: #887744;
+  font-size: 0.95em;
+  padding: 5px 0;
+}
+
+/* nav bar */
+.nav {
+  text-align: center;
+  padding: 15px 0;
+  font-size: 1.05em;
+  background-color: #f5f0dd;
+  border: 1px dashed #ccbb88;
+  margin-bottom: 25px;
+}
+
+.nav a {
+  text-decoration: none;
+  font-weight: bold;
+  padding: 2px 6px;
+}
+
+.nav a:hover {
+  text-decoration: underline;
+}
+
+/* sections */
+.section {
+  margin-bottom: 30px;
+}
+
+.section h2 {
+  text-align: center;
+  font-size: 1.6em;
+  color: #4a3a1a;
+  margin-bottom: 5px;
+}
+
+.section h3 {
+  font-size: 1.3em;
+  color: #5a4a2a;
+  border-bottom: 2px solid #ddcc99;
+  padding-bottom: 4px;
+}
+
+.vibe {
+  font-style: italic;
+  color: #888870;
+  margin-top: -8px;
+  margin-bottom: 12px;
+}
+
+/* schedule tables - web 1.0 tables are GOOD actually */
+.schedule-table {
+  width: 100%;
+  border-collapse: collapse;
+  border-color: #ccbb88;
+  margin: 12px 0;
+  background-color: #fdfcf4;
+}
+
+.schedule-table td {
+  vertical-align: top;
+  border-color: #ccbb88;
+}
+
+.schedule-table .time {
+  width: 110px;
+  font-weight: bold;
+  white-space: nowrap;
+  color: #5a4a2a;
+  background-color: #f5f0dd;
+  font-size: 0.95em;
+}
+
+.schedule-table strong {
+  color: #3a3a1a;
+}
+
+/* FAQ */
+dl {
+  margin: 0;
+}
+
+dt {
+  font-weight: bold;
+  color: #4a3a1a;
+  margin-top: 18px;
+  font-size: 1.05em;
+}
+
+dt::before {
+  content: "Q: ";
+  color: #998866;
+}
+
+dd {
+  margin-left: 20px;
+  margin-top: 4px;
+  padding-left: 15px;
+  border-left: 3px solid #ddcc99;
+}
+
+/* rsvp */
+.rsvp-placeholder {
+  text-align: center;
+  font-size: 1.2em;
+  padding: 40px;
+  border: 2px dashed #ccbb88;
+  background-color: #f9f6ea;
+  color: #887744;
+  margin: 20px 0;
+}
+
+/* footer */
+.footer {
+  text-align: center;
+  padding: 20px 0;
+  color: #888870;
+  font-size: 0.9em;
+}
+
+.counter {
+  font-family: "Courier New", Courier, monospace;
+  background-color: #333;
+  color: #00ff00;
+  display: inline-block;
+  padding: 4px 12px;
+  font-size: 0.85em;
+}
+
+/* horizontal rules like grandma used to make */
+hr {
+  border: none;
+  border-top: 1px solid #ccbb88;
+  margin: 20px 0;
+}
+
+/* responsive-ish */
+@media (max-width: 600px) {
+  .page {
+    padding: 10px;
+  }
+
+  .hero h1 {
+    font-size: 2em;
+  }
+
+  .ascii-art {
+    font-size: 11px;
+  }
+
+  .schedule-table .time {
+    width: 80px;
+    font-size: 0.85em;
+  }
+
+  .nav {
+    font-size: 0.95em;
+  }
+}
